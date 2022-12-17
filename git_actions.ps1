@@ -24,7 +24,7 @@ if ($choice -eq 1) {
     git add .
     git commit -m $commit_name
     git branch -M main
-    git remote add origin https://github.com/Camar67/$repo_name
+    git remote add origin https://github.com/camarh/$repo_name
     git push -uq origin main
 
     exit 
